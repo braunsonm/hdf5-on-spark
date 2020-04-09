@@ -8,6 +8,8 @@ It's also possible to write some Python APIs to make job submission easier for d
 
 Feel free to open an issue if you have any questions!
 
+Many thanks to Noah who helped with the initial code for this project.
+
 ## Development Setup
 
 In order to get setup for development there is a few things you need to install first.
