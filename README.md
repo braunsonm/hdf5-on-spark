@@ -1,6 +1,6 @@
 # hdf5-on-spark
 
-This repository is the source code of a paper I wrote which detailed some performance improvements for the P2IRC Project and their storage of HDF5 files. This implementation provides a HDF5 reader which ingests our HDF5 files into a binary format for storage on Hadoop HDFS. We also make use of Elasticsearch for storing metadata about the partitions and blocks for faster filtering and RDD reconstruction.
+This repository is the source code of a paper I wrote which detailed some performance improvements for the [Plant Phenotyping and Imaging Research Center](https://p2irc.usask.ca/) (P2IRC) Project and their storage of HDF5 files. This implementation provides a HDF5 reader which ingests our HDF5 files into a binary format for storage on Hadoop HDFS. We also make use of Elasticsearch for storing metadata about the partitions and blocks for faster filtering and RDD reconstruction.
 
 This implementation is very specific to our use case and setup. However, it is open source so that other developers may learn from it when looking for a solution to doing HDF5 processing on a Spark/Hadoop (or another storage backend) cluster.
 
